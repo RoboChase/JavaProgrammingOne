@@ -1,11 +1,13 @@
 package Chapter7;
 
-/**
- * Program to display
- */
 import java.util.Scanner;
 import java.util.Arrays;
 
+/**
+ * Program to display Scores to the console
+ *
+ * @author Daniel Anderson
+ */
 public class C7_1 {
 
     /**
@@ -33,6 +35,13 @@ public class C7_1 {
         }
     }
 
+    /**
+     * Program to display grade to the console
+     *
+     * @param score number entered by the console
+     * @param best number entered by the console
+     * @return Score for the student
+     */
     public static char grade(int score, int best) {
         if (score >= best - 10) {
             return 'A';
